@@ -27,6 +27,7 @@ int main()
     char key;
     char name[20];
     rule();
+    system("cls");
     printf("\n\n Enter Your Name : ");
     fgets(name, 20, stdin);
     fflush(stdin);
@@ -50,6 +51,7 @@ int main()
             if (flag)
             {
                 moves--;
+                system("cls");
                 showmove(moves, name);
                 display(arr);
             }
@@ -59,6 +61,7 @@ int main()
             if (flag)
             {
                 moves--;
+                system("cls");
                 showmove(moves, name);
                 display(arr);
             }
@@ -68,6 +71,7 @@ int main()
             if (flag)
             {
                 moves--;
+                system("cls");
                 showmove(moves, name);
                 display(arr);
             }
@@ -77,6 +81,7 @@ int main()
             if (flag)
             {
                 moves--;
+                system("cls");
                 showmove(moves, name);
                 display(arr);
             }
